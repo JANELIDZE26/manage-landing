@@ -1,0 +1,243 @@
+.intro {
+  width: 85%;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.statistics {
+  background: url("../../assets/images/bg-tablet-pattern.svg") center no-repeat;
+  margin-bottom: 1.5rem;
+}
+
+.statistics img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.intro-text-header {
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 1.5em;
+  color: hsl(228, 39%, 23%);
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  color: hsl(227, 12%, 61%);
+  line-height: 1.5em;
+  margin-bottom: 2rem;
+}
+
+.functionality {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+.functionality-intro {
+  width: 80%;
+  margin-bottom: 2rem;
+  min-width: 15rem;
+}
+
+.functionality-intro-header {
+  color: hsl(228, 39%, 23%);
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.5em;
+}
+
+.functionality-intro-text {
+  color: hsl(227, 12%, 61%);
+  font-weight: 500;
+}
+
+.functionality-cards {
+  text-align: left;
+  padding-left: 1rem;
+
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: hsl(13, 100%, 96%);
+  color: hsl(228, 39%, 23%);
+  text-align: left;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.card-number {
+  color: white;
+  background-color: hsl(12, 88%, 59%);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.5rem;
+  margin-right: 0.6rem;
+}
+
+.card-description {
+  margin: 1rem 0 3rem 0;
+  color: hsl(227, 12%, 61%);
+  line-height: 1.8em;
+  padding-right: 2rem;
+}
+
+@media (max-width: 360px) {
+  .card-title {
+    font-size: 0.7rem;
+  }
+}
+
+.customer-reviews {
+  display: flex;
+  max-width: 25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.customer-reviews-title h1 {
+  color: hsl(228, 39%, 23%);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8rem;
+}
+
+.review {
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  padding: 0 1rem 2rem 1rem;
+  background: hsl(0, 0%, 98%);
+}
+
+.image {
+  width: 20%;
+  transform: translateY(-50%);
+}
+
+.image img {
+  width: 100%;
+}
+
+.name {
+  color: hsl(228, 39%, 23%);
+  font-weight: 700;
+  transform: translateY(-100%);
+  margin-bottom: 1rem;
+}
+
+.review-text {
+  color: hsl(227, 12%, 61%);
+  opacity: 0.8;
+}
+.customer-reviews-get-started button {
+  margin-top: 3rem;
+}
+
+
+carousel {
+  margin-bottom: 2rem;
+  z-index: 0;
+}
+
+.how-it-works {
+  background-color: hsl(12, 88%, 59%);
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.how-it-works-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.how-it-works-header h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  line-height: 1.5em;
+  margin-bottom: 3rem;
+}
+
+.how-it-works-get-started button {
+  background: white;
+  color: hsl(12, 88%, 59%);
+}
+
+.how-it-works-get-started button::after {
+  background: white;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    max-width: 70rem;
+    text-align: left;
+    gap: 2rem;
+  }
+
+  .intro-text-container {
+    max-width: 30rem;
+    min-width: 20rem;
+  }
+
+  .statistics img {
+    min-width: 21.875rem;
+  }
+
+  .functionality {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    text-align: left;
+    width: 85%;
+    max-width: 70rem;
+  }
+
+  .card-title {
+    background: none;
+  }
+
+  .card-number {
+    margin-right: 1rem;
+  }
+
+  .how-it-works {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 5rem 8rem;
+  }
+
+  .how-it-works-header h1 {
+    margin: 0;
+  }
+
+  .how-it-works-get-started .btn {
+    min-width: 11.4375rem;
+  }
+
+
+}
